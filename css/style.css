@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+body {
+  margin: 0;
+  font-family: 'Cookie', cursive;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.hero {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+  height: 450px;
+  background-image: url("../assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center 45%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 62px;
+  font-weight: normal;
+  margin: 40px 0;
+}
+
+p {
+  margin: auto;
+  max-width: 60%;
+}
+
+p:not(.intro) {
+  text-indent: 40px;
+  margin-top: 10px;
+}
+
+p.signature {
+  margin-top: 50px;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
